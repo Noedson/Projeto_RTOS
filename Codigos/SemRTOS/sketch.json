@@ -1,0 +1,9 @@
+{
+  "cpu": {
+    "fqbn": "esp32:esp32:heltec_wifi_lora_32_V2:CPUFreq=240,DebugLevel=none,EraseFlash=none,LORAWAN_REGION=4,LoRaWanDebugLevel=0,PSRAM=disabled,UploadSpeed=921600",
+    "name": "Heltec WiFi LoRa 32(V2)",
+    "type": "serial"
+  },
+  "secrets": [],
+  "included_libs": []
+}
