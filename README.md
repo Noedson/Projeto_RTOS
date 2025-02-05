@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-FreeRTOS Application in a Real-Time Air Quality Monitoring Architecture for Smart Campus. <h1>This project employs FreeRTOS, a real-time operating system (RTOS), within the scenario of a smart university campus. The EndNode with RTOS was compared to an EndNode without RTOS. The main objective of this project is to improve detection time, transfer rate, transmission and reception time, and time gain in an air quality monitoring architecture.  The following are the main steps used to model our project and details on how to implement it.</h1>
-1.	Server
-The LoRaWAN server is the machine responsible for receiving all information from the EndNodes. The machine has three necessary programs, which are:
-A.	Docker as the main program to abstract the processes that receive the data.
-A.	The ChirpStack middleware, which is responsible for providing the necessary credentials that will be passed to the EndNodes.
-(Refer to the documentation: https://www.chirpstack.io/docs/). 
-C.	FIWARE to send, decode, forward, and store data in a database.
-(Documentation: https://github.com/alife-echo/iot-fiware).
-Note: a Gateway is required to receive the LoRaWAN signal.
-2.	EndNodes
-=======
 FreeRTOS Application in a Real-Time Air Quality Monitoring Architecture for Smart Campus.
 This project employs FreeRTOS, a real-time operating system (RTOS), within the scenario of a smart university campus. The EndNode with RTOS was compared to an EndNode without RTOS. The main objective of this project is to improve detection time, transfer rate, transmission and reception time, and time gain in an air quality monitoring architecture.  The following are the main steps used to model our project and details on how to implement it.
 
@@ -24,7 +12,6 @@ This project employs FreeRTOS, a real-time operating system (RTOS), within the s
 <b>Note: a Gateway is required to receive the LoRaWAN signal.</b>
 
 <h1>2.	EndNodes</h1>
->>>>>>> d2931d4b85a4f8d0fc07c2a3cea51bc117c49fec
 The EndNodes are two Heltec WiFi LoRa 32 (V2). Each of the EndNodes is connected to MQ131 and MQ135 sensors and a microSD card module.
 <h2>2.1	How to configure LoRaWan Keys</h2>
 
@@ -63,3 +50,8 @@ Inside the “códigos” folder there are the following files:
 <li>b.	In the folder Codigos_Gráficos are all the codes that were used to plot the graphs.</li>
 <li>c.	In the folder ComRTOS has the main code that was used as an experiment and compiled for Heltec Wifi LoRa 32 (v2). Here it was using super loop programming. </li>
 <li>d.	In the folder SemRTOS has the code that was used as an experiment and compiled for Heltec Wifi LoRa 32 (v2). Here it was using RTOS programming.</li>
+<h1>4. From the Tables </h1>
+<p> In the Data folder, there are the Spreadsheets used to analyze the scenarios, each Spreadsheet is a different scenario.
+Within these files there will be five tables, the first two are the data collected from the EndNodes without RTOS TX and RX (Transmission and Reception), then the data collected from the EndNodes with RTOS in TX and RX, finally the comparison table, where we compare the time difference of the EndNodes. </p>
+<p> In the Margin of Error Spreadsheet there is the data that was extracted from each scenario, this data is present in the spreadsheets referring to the scenarios. </p>
+<p> The Percentage of Data Sends and Failures Spreadsheet is the total number of transmissions made and the total number of receptions made and the percentage of data lost. </p>
