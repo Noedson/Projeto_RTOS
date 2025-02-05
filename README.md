@@ -54,4 +54,6 @@ Inside the “códigos” folder there are the following files:
 <p> In the Data folder, there are the Spreadsheets used to analyze the scenarios, each Spreadsheet is a different scenario.
 Within these files there will be five tables, the first two are the data collected from the EndNodes without RTOS TX and RX (Transmission and Reception), then the data collected from the EndNodes with RTOS in TX and RX, finally the comparison table, where we compare the time difference of the EndNodes. </p>
 <p> In the Margin of Error Spreadsheet there is the data that was extracted from each scenario, this data is present in the spreadsheets referring to the scenarios. </p>
-<p> The Percentage of Data Sends and Failures Spreadsheet is the total number of transmissions made and the total number of receptions made and the percentage of data lost. </p>
+<p> The Percentage of Data Sends and Failures Spreadsheet is the total number of transmissions made and the total number of receptions made and the percentage of data lost. 
+<br><br><b></b>
+Note: Spreadsheets are in .rar format to protect against corruption, download and extract as needed</p>
